@@ -10,4 +10,5 @@ apt install tzdata -y
 ln -fs /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 dpkg-reconfigure -f noninteractive tzdata
 apt install gnome-session-flashback gdm3 -y
+apt install gnome-terminal nautilus gnome-settings-daemon -y
 apt install tigervnc-standalone-server tigervnc-xorg-extension -y
