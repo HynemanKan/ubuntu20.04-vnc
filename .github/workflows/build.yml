@@ -8,6 +8,6 @@ jobs:
     - name: Publish to Docker Repository
       uses: elgohr/Publish-Docker-Github-Action@v4
       with:
-        name: hynemankan/ubuntu20.02-vnc
+        name: hynemankan/ubuntu20.04-vnc
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
