@@ -10,4 +10,4 @@ apt install tzdata -y
 ln -fs /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 dpkg-reconfigure -f noninteractive tzdata
 apt install gnome-session-flashback -y
-apt install tightvncserver -y
+apt install tigervnc-standalone-server tigervnc-xorg-extension -y
