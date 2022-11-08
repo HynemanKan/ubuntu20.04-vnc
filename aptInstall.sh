@@ -6,7 +6,7 @@
 #echo "deb http://mirrors.ustc.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse" >> /etc/apt/sources.list
 apt-get update
 apt install tasksel -y
-apt install ztzdata -y
+apt install tzdata -y
 ln -fs /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 dpkg-reconfigure -f noninteractive tzdata
 apt install gnome-session-flashback -y
