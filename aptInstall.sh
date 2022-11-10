@@ -7,6 +7,7 @@
 apt-get update
 apt install tasksel -y
 apt install tzdata -y
+apt install vim -y
 ln -fs /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 dpkg-reconfigure -f noninteractive tzdata
 apt install gnome-session-flashback gdm3 -y
